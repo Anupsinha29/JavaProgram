@@ -1,22 +1,22 @@
-package StringProgram;
+package Practice2;
+
+
 
 public class PalindromeString {
 
 	public static void main(String[] args) {
-		String s = "mam";
+		String s="mam";
 		String rev ="";
+		
 		for(int i=s.length()-1;i>=0;i--) {
 			rev =rev+s.charAt(i);
-			
 		}
 		if(rev.equals(s)) {
-			System.out.println("is palindrome");
-			
+			System.out.println("Palindrome");
 		}
 		else {
-			System.out.println("not a palindrome");
+			System.out.println("Not a Palindrome");
 		}
-
 	}
 
 }

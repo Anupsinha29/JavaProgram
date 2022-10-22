@@ -10,15 +10,15 @@ public class First3MaxMulitiplication {
 					int temp =a[i];
 					a[i] =a[j];
 					a[j]=temp;
-					
 
+
+				}
 			}
-		}
 
-	}for(int i=0;i<a.length;i++) {
-		System.out.println(a[i]);
+		}for(int i=0;i<a.length;i++) {
+			System.out.println(a[i]);
+		}
 	}
-	}
-	
+
 }
 

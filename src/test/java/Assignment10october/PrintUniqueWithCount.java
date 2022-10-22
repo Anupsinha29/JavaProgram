@@ -17,6 +17,7 @@ public class PrintUniqueWithCount {
 				if(ch==q[i]) {
 					count++;
 					
+					
 				}
 			}
 			

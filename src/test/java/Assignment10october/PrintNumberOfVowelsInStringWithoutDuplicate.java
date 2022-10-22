@@ -1,24 +1,35 @@
 package Assignment10october;
 
+import java.util.LinkedHashSet;
+
 public class PrintNumberOfVowelsInStringWithoutDuplicate {
 
 	public static void main(String[] args) {
 		String str = "india";
-		int count =0;
+		
 		char[] ch =str.toCharArray();
+		LinkedHashSet<Character> set =new LinkedHashSet<>();
 		for(int i=0;i<ch.length;i++) {
-			if(ch[i]=='a'|| ch[i]=='e'|| ch[i]=='i' || ch[i]=='o'|| ch[i]=='u') {
+			set.add(ch[i]);
+		}int count =0;
+		
+			for(Character s: set) {
+				
+			
+			if(s=='a'|| s=='e'|| s=='i' || s=='o'|| s=='u') {
 				count++;
+				System.out.println(s);
 				
 			}
+			
 					}
-		if(count==1) {
-			System.out.println(count);
+		
+			System.out.println("= " +count);
 		
 				}
 		
 		
 		}
 	
-}
+
 
